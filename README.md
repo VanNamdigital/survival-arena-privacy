@@ -1,49 +1,57 @@
-# Privacy Policy — Survival Arena VR
+# Privacy Policy - Survival Arena VR
 
-**Developer:** Van Nam Digital  
+**Developer:** VannamDigital  
 **Game:** Survival Arena VR  
 **Last updated:** November 3, 2026  
+**Contact:** [vannamdigital005@gmail.com](mailto:vannamdigital005@gmail.com)  
 
-## 1. Introduction
+This policy describes how information is processed when you play Survival Arena VR, download additional maps, visit this policy page, or contact VannamDigital for support.
 
-This Privacy Policy explains how Survival Arena VR ("we", "our", or "the game"), developed by Van Nam Digital, handles player information. We are committed to respecting and protecting the privacy of all players.
+## 1. VR gameplay and technical information
 
-## 2. Data Collection
+The game processes headset and controller position, rotation, tracking status, and button inputs on your device to display the VR scene, move your character, and handle combat and interactions. These inputs are used during play rather than saved as a recording of your movements.
 
-Survival Arena VR is designed with a privacy-first approach:
+The game also uses technical information such as headset model, refresh rate, frame timing, rendering settings, and application version to configure rendering and diagnose performance. Diagnostic messages can be written to device logs. If you choose to send us a log or screenshot for support, we process the information included in that file as described in section 4.
 
-- **Personal Information:** We do not collect, store, sell, or distribute any personally identifiable information (PII) such as your real name, email address, physical address, or financial details.
-- **Account & Identifiers:** The game interacts with the Meta Platform SDK solely to verify your game license (entitlement) and load your basic Meta Horizon profile (such as public display name or avatar) for in-game display. We do not store this information on external developer servers.
-- **Device & Technical Information:** Standard device specifications (e.g., Meta Quest headset model, refresh rate, and operating system version) are processed locally by the game engine to optimize VR rendering and performance.
-- **Analytics & Tracking:** The game does not track your location or use third-party behavioral analytics or advertising trackers.
+## 2. Progress and settings on your headset
 
-## 3. Game Progress
+The game saves progress and preferences in its local application storage. This includes earned gold, owned equipment, selected loadout, upgrades, unlocked maps and difficulty levels, best completion times, interrupted-run recovery information, language, audio, movement, turning, and display settings. Downloaded map files and their installation information are also stored on the device.
 
-- **Local Storage:** All player data—including wave progression, survival records, unlocked gear, audio preferences, and VR comfort settings—is stored locally on your Meta Quest headset.
-- **Cloud Backup:** If Meta Cloud Backup is enabled on your device, your game save data may be synchronized via Meta’s cloud infrastructure so you can restore progress after reinstalling or switching headsets. This save data is managed directly by Meta and is never transmitted to independent developer servers.
+A device-protected key helps verify the integrity of local progress. Save data is tied to the local installation. Clearing application storage or uninstalling the game removes local progress and settings; reinstalling or moving to a different headset may require starting again.
 
-## 4. Third-Party Services
+## 3. Online map delivery
 
-Survival Arena VR utilizes services provided by Meta Platforms, Inc. to ensure platform compatibility:
+When connected to the internet, the game contacts **survival.vannamdigital.top** to check the downloadable-map catalog and retries these checks periodically. Selecting a map download requests the corresponding map files. Installed content can be used offline when its local verification succeeds.
 
-- **Meta Platform SDK:** Utilized for user authentication, entitlement checks, and optional platform features (such as cloud saves and platform achievements). Data processed through these features is subject to the [Meta Privacy Policy](https://www.meta.com/legal/quest/privacy-policy/).
-- **Third-Party Advertising:** The game contains no third-party ad networks or data brokers.
+These connections are served through Cloudflare. Delivering a request involves processing connection information such as your IP address, requested file or URL, request time, and HTTP headers. We use this service to deliver content and keep the delivery service reliable and secure. The game-download requests carry file and transfer information; local saved progress remains on the headset.
 
-## 5. Data Deletion
+Cloudflare may process and retain technical connection or security records under its service settings and policies. See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
-Because player data is stored locally or handled directly by Meta:
+## 4. Email support and privacy requests
 
-- **Deleting Local Data:** You can permanently delete all local game data and settings at any time by uninstalling Survival Arena VR or clearing the app storage via your Meta Quest system settings (`Settings > Storage > Survival Arena VR`).
-- **Cloud Backup Deletion:** You can manage or delete cloud backup data through your Meta Quest cloud storage settings.
-- **Data Requests:** For any inquiries or requests regarding data removal, you can contact us at **vannamdigital005@gmail.com**, and we will assist you promptly.
+If you email [vannamdigital005@gmail.com](mailto:vannamdigital005@gmail.com), we receive your email address, the contents of your message, and any attachments you choose to send. We use this information to respond to your request, investigate reported problems, and provide support. Messages are handled through our email service provider.
 
-## 6. Age Requirements
+We keep support correspondence for as long as needed to resolve the request and meet applicable legal or security obligations. You can use the same email address to request access, correction, or deletion of information you have sent us, or to report a privacy or security concern. Local game data is controlled through your headset's application-storage settings.
 
-Survival Arena VR is intended for players aged 13 and older. We do not knowingly collect personal data from children under the age of 13. If you believe a child under 13 has provided information through our platform, please reach out to us so we can resolve the matter immediately.
+## 5. Meta purchases and platform services
 
-## 7. Contact
+The game is distributed through the Meta Horizon Store. Meta handles the purchase, payment, account, and device-platform services involved in obtaining and running the game. Information processed by Meta through those services is governed by the [Meta Privacy Policy](https://www.meta.com/legal/privacy-policy/). Purchase or refund requests should also follow Meta's applicable Store procedures.
 
-For privacy-related questions, feedback, or support requests, please contact:
+## 6. This policy website
 
-- **Developer:** Van Nam Digital  
-- **Email:** vannamdigital005@gmail.com
+This page is hosted on GitHub Pages. Visiting it involves ordinary web-request information being processed by the hosting provider, such as your IP address and browser/request information. See the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+## 7. Security, retention, and your choices
+
+Content downloads use HTTPS, and downloaded content is checked before installation. Local progress and settings remain until they are replaced by gameplay, cleared through application storage, or removed by uninstalling. Hosting and email providers retain information according to their applicable service settings, policies, and legal requirements.
+
+Depending on the law applicable to you, you may have rights to access, correct, delete, restrict, or object to the processing of your information. Contact us using the address above so we can address the request. Information held independently by Meta, Cloudflare, or GitHub can also be managed or requested through the relevant provider.
+
+## 8. Age group and policy changes
+
+Survival Arena VR is intended for teens and adults aged 13 and older. A parent or guardian who has concerns about information sent to us can contact [vannamdigital005@gmail.com](mailto:vannamdigital005@gmail.com).
+
+We may update this policy when the game's information-processing practices change. The current policy will remain available at this URL, with its update date shown above.
+
+---
+VannamDigital &middot; Survival Arena VR
